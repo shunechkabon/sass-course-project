@@ -46,7 +46,7 @@
     padding: 16px;
     border-radius: 12px;
 
-    @include mx.mq('lg') {
+    @include mix.mq('lg') {
         padding: 24px;
     }
 }
