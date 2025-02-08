@@ -1,0 +1,32 @@
+@use "../utils/placeholders";
+@use "../utils/variables" as var;
+@use "../utils/functions" as fn;
+@use "../utils/mixins" as mix;
+
+.tasks {
+    grid-area: tasks;
+}
+
+.tasks-title {}
+
+.tasks-list {}
+
+.tasks-item {}
+
+.tasks-checkbox {}
+
+.tasks-input {}
+
+.visually-hidden {}
+
+.tasks-checkbox-icon {}
+
+.tasks-info {}
+
+.tasks-heading {}
+
+.tasks-desc {}
+
+.tasks-btn {}
+
+.tasks-btn-icon {}

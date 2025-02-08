@@ -1,0 +1,16 @@
+@use "../utils/placeholders";
+@use "../utils/variables" as var;
+@use "../utils/functions" as fn;
+@use "../utils/mixins" as mix;
+
+.welcome {
+    grid-area: welcome;
+}
+
+.page-title {}
+
+.page-title-accent {}
+
+.welcome-btn {}
+
+.welcome-btn-icon {}
