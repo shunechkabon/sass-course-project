@@ -3,6 +3,10 @@
 @use "../utils/functions" as fn;
 @use "../utils/mixins" as mix;
 
+@use "btn/btn" as btn with (
+    $btn-layer-spacing: 4px
+);
+
 .welcome {
     grid-area: welcome;
 }
