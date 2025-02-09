@@ -9,12 +9,25 @@
 
 .welcome {
     grid-area: welcome;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    row-gap: 16px;
 }
 
-.page-title {}
+.page-title {
+    &-accent {
+        @extend %section-title;
 
-.page-title-accent {}
+        display: block;
+        margin-bottom: 8px;
 
-.welcome-btn {}
+        color: fn.get-color('light-primary');
 
-.welcome-btn-icon {}
+        @include mix.mq('lg') {
+            margin-bottom: 16px;
+        }
+    }
+}

@@ -28,8 +28,8 @@
     }
 }
 
-@mixin frame($widht, $height: $width, $is-circle: false) {
-    width: $widht;
+@mixin frame($width, $height: $width, $is-circle: false) {
+    width: $width;
     height: $height;
 
     @if $is-circle {
@@ -53,7 +53,7 @@
         border-radius: 104px;
 
         &:hover {
-            background-color: rgba(#fff, 0, 3);
+            background-color: rgba(#fff, 0.3);
         }
     }
 
